@@ -1,0 +1,113 @@
+@import "./typography.scss";
+@import "./mixins.scss";
+@import "./resonsiveMixins.scss";
+@import "./themes.scss";
+@import "./components.scss";
+@import "./layout.scss";
+
+/* body */
+
+:root {
+  --sidebg: #b0deeb;
+  --sideNav: rgb(71, 71, 71);
+  --specialHead: #207a8b;
+
+  /* font colors  - light theme */
+  --navLinks: rgb(71, 71, 71);
+}
+
+/* scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+@include respond-to("small") {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+/* Track */
+::-webkit-scrollbar-track {
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--sidebg);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  --sidebg: #b0deeb;
+  --sideNav: rgb(71, 71, 71);
+  --specialHead: #207a8b;
+  --MainBar: #eaf0e3;
+
+  /* font colors  - light theme */
+
+  --navLinks: rgb(71, 71, 71);
+  /* box theme  */
+  --boxInset: #9fa39a;
+  --boxOutset: #ffffff;
+  --boxBack: #eaf0e3;
+  --circleTime: #fcc665;
+}
+
+.dark-theme {
+  --sidebg: rgb(14, 13, 13);
+  --sideNav: #eaf0e3;
+  --specialHead: #207a8b;
+  --MainBar: rgb(31, 27, 27);
+
+  /* font colors  - light theme */
+
+  --navLinks: #eaf0e3;
+  --circleTime: #41a3cb;
+  /* box dark theme */
+  --boxBack: #474747;
+  --boxInset: #333333;
+  --boxOutset: #5b5b5b;
+}
+
+/* headings */
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $monster;
+  color: var(--navLinks);
+}
+h1 {
+  font-family: $rale;
+  font-weight: $monster500;
+  font-size: 28px;
+  color: var(--navLinks);
+  transition: 0.5s ease-in all;
+}
+h2,
+h3 {
+  font-weight: $monster400;
+  font-size: 25px;
+  color: var(--navLinks);
+}
+
+h4,
+h5 {
+  font-weight: $monster300;
+  font-size: 20px;
+}
+/* app */
+p {
+  font-family: $open;
+  color: var(--navLinks);
+  transition: 0.5s ease-in all;
+}
+.section-para {
+  font-size: 20px;
+}

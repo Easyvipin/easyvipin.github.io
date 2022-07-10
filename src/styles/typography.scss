@@ -1,0 +1,58 @@
+/* import fonts */
+
+/* Abril */
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+/* playFair */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap");
+
+/* Major */
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+
+/* Darker */
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600;900&display=swap");
+
+/* sail */
+@import url("https://fonts.googleapis.com/css2?family=Sail&display=swap");
+
+/* contrail */
+@import url("https://fonts.googleapis.com/css2?family=Contrail+One&display=swap");
+/* monster */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap");
+/* Rale */
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+/* open */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lacquer&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+/*style varivables */
+
+$abril: "Abril Fatface", cursive;
+$play: "Playfair Display SC", serif;
+$major: "Major Mono Display", monospace;
+$darker: "Darker Grotesque", sans-serif;
+$sail: "Sail", cursive;
+$monster: "Montserrat", sans-serif;
+$rale: "Raleway", sans-serif;
+$open: "Open Sans", sans-serif;
+
+/* size varibales */
+
+$darker400: 400;
+$darker500: 500;
+$darker600: 600;
+$darker900: 900;
+
+/* monster */
+$monster200: 200;
+$monster300: 300;
+$monster400: 400;
+$monster500: 500;
+
+/* font colors */
+
+$headcolor: #202124;
